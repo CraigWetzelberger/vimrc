@@ -26,7 +26,6 @@ Plugin 'kien/ctrlp.vim'
 Plugin 'rking/ag.vim'
 Plugin 'scrooloose/nerdtree'
 Plugin 'tpope/vim-unimpaired'
-Plugin 'wakatime/vim-wakatime'
 Plugin 'tpope/vim-surround'
 Plugin 'w0rp/ale'
 Plugin 'vim-airline'
@@ -52,6 +51,7 @@ set iskeyword+=$,@,%,#,-                           " these don't act as word sep
 set mouse=a                                        " enable mouse
 
 set noerrorbells                                   " no sound! *BLING* *BLING* *BLING* SUCKS!
+set belloff=all
 
 set wildmenu                                       " wild menu file listing                                     
 set wildignore=*.exe,*.jpg,*.gif,*.png,*\\node_modules\\*   " ignore these files in wild menu.

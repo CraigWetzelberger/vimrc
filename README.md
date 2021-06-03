@@ -11,12 +11,12 @@ Create a .vimrc in your home directory with the line:
 runtime vimrc
 ```
 
-#install Vundle
+Install Vundle:
 ```
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 ```
 
-#install plugins
+Install plugins
 ```
 vim +PluginInstall +qall
 ```
