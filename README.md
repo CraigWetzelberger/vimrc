@@ -21,3 +21,7 @@ Install plugins
 vim +PluginInstall +qall
 ```
 
+Make backup directory:
+```
+mkdir ~/.vim/backup
+```
