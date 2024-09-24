@@ -2,7 +2,7 @@
  
 Run:
 ```
-git clone git://github.com/cdwetzelberger/vimsetup2 ~/.vim
+git clone git://github.com/CraigWetzelberger/vimrc ~/.config/.vim
 ```
 
 Create a .vimrc in your home directory with the line:
