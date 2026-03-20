@@ -1,0 +1,28 @@
+" Enable syntax highlighting
+syntax on
+
+" Set dark background (helpful for terminals with dark themes)
+set background=dark
+
+" Show line numbers
+set number
+
+" Enable mouse support
+set mouse=a
+
+" Set scroll offset (5 lines from top/bottom)
+let vimpager_scrolloff = 5
+
+" Disable loading plugins for faster startup
+set noloadplugins
+
+" Disable X11 connection for faster startup (if not using GUI)
+let vimpager_disable_x11 = 1
+
+" Use gvim/MacVim for GUI mode (uncomment if desired)
+" let vimpager_use_gvim = 1
+
+" Disable passthrough mode (always use vim, even for short files)
+let vimpager_passthrough = 0
+
+" Map ,h to show help   
