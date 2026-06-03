@@ -68,7 +68,7 @@ Plugin 'posva/vim-vue'
 Plugin 'tpope/vim-rails.git'
 Plugin 'tpope/vim-dispatch'
 
-Plugin 'tom-doerr/vim_codex'
+" Plugin 'tom-doerr/vim_codex'
 
 set rtp+=/usr/local/opt/fzf
 Plugin 'junegunn/fzf.vim'

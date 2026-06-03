@@ -128,6 +128,10 @@
  func! FilenameToCopyBuffer()
    let @+ = @%
  endfunc
+
+ func! FullPathToCopyBuffer()
+   let @+ = expand('%:p')
+ endfunc
  
  func! FilenameAddToCopyBuffer()
    let @+ = @+ . ' ' . @%

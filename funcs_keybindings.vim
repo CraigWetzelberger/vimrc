@@ -6,6 +6,7 @@ nmap <Leader>d :call GetDebuggerStatement()<CR>
 nmap <Leader>fv :call OpenTestVertSplit()<CR>
 
 nmap <Leader>fn :call FilenameToCopyBuffer()<CR>
+nmap <Leader>fp :call FullPathToCopyBuffer()<CR>
 nmap <Leader>F :call FilenameAddToCopyBuffer()<CR>
 nmap <Leader>c :call FilenameToCopyBufferWithTrailingSpace()<CR>
 
